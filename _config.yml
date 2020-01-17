@@ -8,7 +8,7 @@ org_name: Project Example
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
   A mobile-friendly Github Pages template designed to help grassroots nonprofits get a website online quickly
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
-  <p>Cliente en OSE: Enviar al equipo FEX el RUC y la razón social del cliente.</p>
+  <p>Cliente en OSE: Enviar al equipo FEX el [RUC](https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias) y la razón social del cliente.</p>
   <p>Cliente en SUNAT: Solicitar al cliente el usuario secundario con perfil de envío de comprobantes desde sistema del contribuyente.</p>
   
 #OPTIONAL
