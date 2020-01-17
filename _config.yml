@@ -8,8 +8,9 @@ org_name: Project Example
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
   A mobile-friendly Github Pages template designed to help grassroots nonprofits get a website online quickly
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
-  Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
-
+  Cliente en OSE: Enviar al equipo FEX el RUC y la razón social del cliente.
+  Cliente en SUNAT: Solicitar al cliente el usuario secundario con perfil de envío de comprobantes desde sistema del contribuyente.
+  
 #OPTIONAL
 #Non US-address support coming soon
 org_general_email_inbox: your-email@somedomain.com
