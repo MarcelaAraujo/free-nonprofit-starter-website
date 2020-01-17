@@ -81,11 +81,12 @@ layout: default
         <h1 class="join-us-intro">Solicitar la contraseña.<br> ¡Subir el certificado a SUNAT!</h1>
       </div>
       <div class="col-sm-5 text-left text-left-sm">
-        <p>Sign up to receive updates, progress reports and ways to get involved. We're excited to have you join our amazing community!</p>
+        <p>El certificado se debe colocar en la carpeta /Cert.</p>
+        <p>Se carga el certificado desde la opción del Addon.</p>
         {% if site.tinyletter_username %}
-        <p><em>No spam. Just the occasional update.</em></p>
+        <p>El certificado funcionará desde su fecha de inicio.</p>
         {% elsif site.mailchimp_embed_code %}
-        <p>No spam. Just the occasional update.</p>
+        <p>El certificado funcionará desde su fecha de inicio.</p>
         <div id="mc_embed_signup">
           <form action="{{ site.mailchimp_embed_code }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bs-component" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
