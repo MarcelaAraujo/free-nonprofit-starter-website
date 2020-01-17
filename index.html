@@ -21,10 +21,10 @@ layout: default
       <div class="navbar-collapse collapse" id="navbar-collapse">
         <ul class="nav navbar-nav">
           <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
-          <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
-          <li class="nav-item"><a class="scrollto" href="#join">Join Us</a></li>
-          <li class="nav-item"><a class="scrollto" href="#contact">Contact</a></li>
-          <li class="nav-item last"><a class="scrollto highlight" href="#donate">Donate</a></li>
+          <li class="nav-item"><a class="scrollto" href="#about">Credenciales</a></li>
+          <li class="nav-item"><a class="scrollto" href="#join">Certificado digital</a></li>
+          <li class="nav-item"><a class="scrollto" href="#contact">FEX_PE</a></li>
+          <li class="nav-item"><a class="scrollto" href="#donate">RDB y cobros</a></li>
         </ul><!--//nav-->
       </div><!--//navabr-collapse-->
     </nav><!--//main-nav-->
@@ -38,7 +38,7 @@ layout: default
     <p class="intro">{{ site.org_summary }}</p>
     <div class="btns">
       <!--a class="btn btn-cta-secondary" href="#" target="_blank">Demo</a-->
-      <a class="btn btn-outline btn-outline-medium scrollto" href="#about" target="_blank">Learn More <i class="fa fa-angle-double-down"></i></a>
+      <a class="btn btn-outline btn-outline-medium scrollto" href="#about" target="_blank">Iniciar <i class="fa fa-angle-double-down"></i></a>
     </div>
     <ul class="meta list-inline">
       <li></li>
@@ -84,21 +84,8 @@ layout: default
         <p>Sign up to receive updates, progress reports and ways to get involved. We're excited to have you join our amazing community!</p>
         {% if site.tinyletter_username %}
         <p><em>No spam. Just the occasional update.</em></p>
-        <div class="row">
-          <div class="col-sm-12">
-            <form class="form-inline" role="form" action="https://tinyletter.com/{{ site.tinyletter_username }}" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/{{ site.tinyletter_username }}', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-              <div class="input-group input-group-lg col-sm-12">
-                <label class="sr-only" for="tlemail">Email address</label>
-                <input type="email" class="form-control" name="email" id="tlemail" placeholder="email address" />
-                <div class="input-group-btn">
-                  <button type="submit" class="button btn btn-cta-secondary">Join Us!</button>
-                </div><!-- /btn-group -->
-              </div><!-- /input-group -->
-            </form>
-          </div>
-        </div>
         {% elsif site.mailchimp_embed_code %}
-        <p><em>No spam. Just the occasional update.</em></p>
+        <p>No spam. Just the occasional update.</p>
         <div id="mc_embed_signup">
           <form action="{{ site.mailchimp_embed_code }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bs-component" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
