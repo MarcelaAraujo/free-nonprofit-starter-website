@@ -1,4 +1,4 @@
-## Based on a fre website template for nonprofits
+## Based on a free website template for nonprofits
 This page uses open source development.  
 
 ___
