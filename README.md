@@ -9,10 +9,8 @@ ___
 
 
 Development
-    a. [Set up your local machine](http://ramonaharrison.github.io/jekyll/pixyll/technical/git/github/2015/03/09/how-i-built-my-blog/) (follow steps 1 and 2)  
-    b. Download [Github Desktop](https://desktop.github.com/) and [Atom](https://atom.io/) ([tutorial](https://github.com/jwsy/example-website/tree/master#initial-setup))
 
-3. Need Help? Consider attending one of Github's [workshops](http://patchwork.github.io/) or [online trainings](https://training.github.com/classes/)
+Consider attending one of Github's [workshops](http://patchwork.github.io/) or [online trainings](https://training.github.com/classes/)
 
 ___
 #### Extras  
